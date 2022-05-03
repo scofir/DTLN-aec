@@ -1,4 +1,4 @@
-(语音降噪网络,回声消除网络,以及生成DNS数据集)
+(语音降噪网络,回声消除网络,以及DNS数据集)
 
 -(双信号变换LSTM网络)DTLN训练步骤
 paper：Dual-Signal Transformation LSTM Network for Real-Time Noise Suppression
