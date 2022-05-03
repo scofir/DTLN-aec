@@ -1,4 +1,4 @@
-(实时语音降噪网络,回声消除网络,以及生成DNS数据集)
+(语音降噪网络,回声消除网络,以及生成DNS数据集)
 
 -(双信号变换LSTM网络)DTLN训练步骤
 paper：Dual-Signal Transformation LSTM Network for Real-Time Noise Suppression
@@ -30,8 +30,3 @@ run_DTLNaec_training.py中修改路径，DTLNaec_model.py可以修改相关设�
 （回声消除）
 运行：python run_aec_evaluation.py -i ./in -o ./out_aec -m ./models_DTLN_aec_model/DTLN_aec_model.h5
 
-
-
-（关于DTLN-aec-master）
--DTLN-AEC:
-测试步骤：python run_aec.py -i ./test_audio/in_folder/clean -o ./test_audio/out_folder -m ./pretrained_models/dtln_aec_512
